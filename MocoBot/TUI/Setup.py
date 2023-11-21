@@ -115,7 +115,6 @@ def try_login(appid: int, token: str, appSecret: str, self):
     if testAll(appid, appSecret):
         self.notify("[green]验证成功")
         self.app.add_note("[green]Login OK")
-        # todo: 后续逻辑
         data = {
             "appId": appid,
             "token": token,

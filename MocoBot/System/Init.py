@@ -51,7 +51,7 @@ def databaseLoader() -> None:
     folder = os.path.exists("db")
     if not folder:  # 判断是否存在文件夹如果不存在则创建为文件夹
         os.makedirs("db")  # makedirs 创建文件时如果路径不存在会创建这个路径
-    # todo: 完善总表
+    # unfinished: 完善总表
     db = sqlite3.connect("./db/main.db")
     temp = sqlite3.connect("./db/temp.db")
     db.close()
