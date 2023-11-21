@@ -1,0 +1,5 @@
+websockets~=11.0.3
+requests~=2.31.0
+rich~=13.6.0
+textual~=0.41.0
+websocket-client~=1.6.4
